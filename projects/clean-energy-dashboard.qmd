@@ -1,0 +1,33 @@
+---
+title: "Nova Scotia Clean Energy Workforce Dashboard"
+description: "An interactive workforce planning and scenario modelling tool examining employment demand associated with clean energy development."
+categories:
+  - Power BI
+  - Workforce Analytics
+  - Data Visualization
+  - Scenario Modelling
+---
+
+## Overview
+
+This case study is currently being prepared for publication.
+
+## The Problem
+
+Content forthcoming.
+
+## Approach
+
+Content forthcoming.
+
+## What I Built
+
+Content forthcoming.
+
+## Technical Approach
+
+Content forthcoming.
+
+## Outcomes
+
+Content forthcoming.

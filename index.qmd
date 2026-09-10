@@ -1,7 +1,27 @@
 ---
-title: "portfolio"
+title: portfolio
 ---
 
-This is a Quarto website.
+# Your Name
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Workforce Research · People Analytics · Data Analytics
+
+I combine workforce and organizational research with analytics to help decision-makers understand complex people and labour market questions.
+
+## Featured Work
+
+### Nova Scotia Clean Energy Workforce Dashboard
+
+An interactive workforce planning and scenario modelling tool examining employment demand associated with clean energy development.
+
+[View project →](projects/clean-energy-dashboard.qmd)
+
+## Areas of Work
+
+**People & Workforce Analytics**
+
+Workforce modelling, reporting, data visualization, scenario analysis, and decision-support tools.
+
+**Research & Policy**
+
+Labour market research, workforce strategy, policy analysis, stakeholder research, and translating evidence into recommendations.

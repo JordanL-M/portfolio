@@ -2,20 +2,20 @@ project:
   type: website
 
 website:
-  title: "portfolio"
+  title: "Jordan Lewis-Morden"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: projects.qmd
+        text: Projects
+      - href: research.qmd
+        text: Research & Policy
+      - href: about.qmd
+        text: About
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
-    toc: true
-
-
-
+    toc: false

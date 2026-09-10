@@ -2,4 +2,8 @@
 title: "About"
 ---
 
-About this site
+I work at the intersection of workforce research, labour market analysis, policy, and data analytics.
+
+My background includes workforce and labour research, analytical product development, data visualization, and advising decision-makers on complex workforce questions.
+
+A fuller biography will be added as this portfolio develops.
