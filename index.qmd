@@ -1,27 +1,59 @@
 ---
-title: portfolio
+title: Jordan Lewis-Morden
+page-layout: full
 ---
+
+::: {.hero-section}
+
+::: {.eyebrow}
+WORKFORCE RESEARCH + PEOPLE ANALYTICS
+:::
 
 # Your Name
 
-## Workforce Research · People Analytics · Data Analytics
-
+::: {.hero-subtitle}
 I combine workforce and organizational research with analytics to help decision-makers understand complex people and labour market questions.
+:::
+
+[View My Work](projects.qmd){.btn .btn-primary}
+[About Me](about.qmd){.btn .btn-outline-primary}
+
+:::
+
 
 ## Featured Work
 
+::: {.glass-panel}
+
 ### Nova Scotia Clean Energy Workforce Dashboard
 
-An interactive workforce planning and scenario modelling tool examining employment demand associated with clean energy development.
+An interactive workforce planning and scenario modelling tool examining how clean-energy development affects employment and occupational demand.
 
-[View project →](projects/clean-energy-dashboard.qmd)
+**Power BI · Workforce Analytics · Scenario Modelling · Data Visualization**
 
-## Areas of Work
+[View case study →](projects/clean-energy-dashboard.qmd)
 
-**People & Workforce Analytics**
+:::
 
-Workforce modelling, reporting, data visualization, scenario analysis, and decision-support tools.
 
-**Research & Policy**
+## What I Do
 
-Labour market research, workforce strategy, policy analysis, stakeholder research, and translating evidence into recommendations.
+::: {.columns}
+
+::: {.column width="50%"}
+
+### People & Workforce Analytics
+
+I develop analytical tools and approaches for understanding workforce composition, demand, trends and organizational decisions.
+
+:::
+
+::: {.column width="50%"}
+
+### Research & Policy
+
+I conduct workforce, labour market and organizational research and translate evidence into practical recommendations for decision-makers.
+
+:::
+
+:::

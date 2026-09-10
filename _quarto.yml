@@ -4,6 +4,7 @@ project:
 website:
   title: "Jordan Lewis-Morden"
   navbar:
+    pinned: true
     left:
       - href: index.qmd
         text: Home
@@ -13,6 +14,10 @@ website:
         text: Research & Policy
       - href: about.qmd
         text: About
+
+  page-footer:
+    border: false
+    center: "© 2026 Jordan Lewis-Morden"
 
 format:
   html:

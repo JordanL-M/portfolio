@@ -1,1 +1,307 @@
-/* css styles */
+/* -----------------------------
+   GLOBAL VARIABLES
+------------------------------ */
+
+:root {
+  --bg: #f4f7f9;
+  --surface: rgba(255, 255, 255, 0.76);
+  --surface-solid: #ffffff;
+
+  --text: #18232f;
+  --text-muted: #5e6c78;
+
+  --accent: #287b86;
+  --accent-dark: #1e616a;
+  --accent-soft: #dcecef;
+
+  --border: rgba(40, 70, 80, 0.12);
+
+  --shadow-sm: 0 4px 16px rgba(20, 40, 50, 0.05);
+  --shadow-md: 0 12px 32px rgba(20, 40, 50, 0.08);
+
+  --radius: 14px;
+}
+
+
+/* -----------------------------
+   PAGE
+------------------------------ */
+
+body {
+  color: var(--text);
+  background:
+    radial-gradient(
+      circle at 10% 10%,
+      rgba(70, 150, 165, 0.09),
+      transparent 32%
+    ),
+    radial-gradient(
+      circle at 90% 20%,
+      rgba(110, 140, 180, 0.07),
+      transparent 28%
+    ),
+    var(--bg);
+
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  line-height: 1.65;
+}
+
+
+/* -----------------------------
+   TYPOGRAPHY
+------------------------------ */
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--text);
+  font-weight: 650;
+  letter-spacing: -0.025em;
+}
+
+h1 {
+  font-size: clamp(2.4rem, 5vw, 4.5rem);
+  line-height: 1.05;
+}
+
+h2 {
+  margin-top: 2.5rem;
+  font-size: 1.9rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+p {
+  color: var(--text-muted);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-dark);
+}
+
+
+/* -----------------------------
+   NAVBAR
+------------------------------ */
+
+.navbar {
+  background: rgba(244, 247, 249, 0.88) !important;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border-bottom: 1px solid var(--border);
+  box-shadow: none;
+}
+
+.navbar-brand {
+  font-weight: 650;
+  color: var(--text) !important;
+}
+
+.navbar-nav .nav-link {
+  color: var(--text-muted) !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: var(--accent) !important;
+}
+
+
+/* -----------------------------
+   GENERAL CONTENT
+------------------------------ */
+
+main.content {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quarto-title {
+  margin-bottom: 2rem;
+}
+
+
+/* -----------------------------
+   CARDS / QUARTO LISTINGS
+------------------------------ */
+
+.card,
+.quarto-grid-item {
+  background: var(--surface);
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius) !important;
+
+  box-shadow: var(--shadow-sm);
+
+  overflow: hidden;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.card:hover,
+.quarto-grid-item:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(40, 123, 134, 0.25) !important;
+}
+
+.card-title {
+  color: var(--text);
+  font-weight: 650;
+}
+
+.card-text,
+.listing-description {
+  color: var(--text-muted);
+}
+
+.listing-category {
+  color: var(--accent-dark);
+  background: var(--accent-soft);
+  border-radius: 100px;
+  padding: 0.2rem 0.55rem;
+}
+
+
+/* -----------------------------
+   CUSTOM COMPONENTS
+------------------------------ */
+
+.glass-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+
+  box-shadow: var(--shadow-sm);
+
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  padding: 2rem;
+}
+
+.eyebrow {
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  font-size: clamp(1.2rem, 2vw, 1.55rem);
+  max-width: 760px;
+  color: var(--text-muted);
+}
+
+.accent {
+  color: var(--accent);
+}
+
+
+/* -----------------------------
+   BUTTONS
+------------------------------ */
+
+.btn-primary {
+  background-color: var(--accent);
+  border-color: var(--accent);
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 0.65rem 1.1rem;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-dark);
+  border-color: var(--accent-dark);
+}
+
+.btn-outline-primary {
+  color: var(--accent);
+  border-color: var(--accent);
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+
+
+/* -----------------------------
+   FOOTER
+------------------------------ */
+
+.nav-footer {
+  margin-top: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: var(--text-muted);
+}
+
+
+/* -----------------------------
+   MOBILE
+------------------------------ */
+
+@media (max-width: 768px) {
+
+  main.content {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+
+  .glass-panel {
+    padding: 1.4rem;
+  }
+
+}
+
+/* -----------------------------
+   HOME PAGE
+------------------------------ */
+
+.hero-section {
+  max-width: 1180px;
+  margin: 5rem auto 6rem auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.hero-section h1 {
+  margin-top: 0.6rem;
+  margin-bottom: 1.25rem;
+}
+
+.hero-section .btn {
+  margin-top: 1.75rem;
+  margin-right: 0.6rem;
+}
+
+.hero-section + h2 {
+  margin-top: 1rem;
+}
