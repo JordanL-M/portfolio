@@ -1,16 +1,93 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "portfolio",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research & Policy",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Selected workforce research, labour market analysis, policy, and organizational research.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/clean-energy-dashboard.html",
+    "href": "projects/clean-energy-dashboard.html",
+    "title": "Nova Scotia Clean Energy Workforce Dashboard",
+    "section": "",
+    "text": "This case study is currently being prepared for publication."
+  },
+  {
+    "objectID": "projects/clean-energy-dashboard.html#overview",
+    "href": "projects/clean-energy-dashboard.html#overview",
+    "title": "Nova Scotia Clean Energy Workforce Dashboard",
+    "section": "",
+    "text": "This case study is currently being prepared for publication."
+  },
+  {
+    "objectID": "projects/clean-energy-dashboard.html#the-problem",
+    "href": "projects/clean-energy-dashboard.html#the-problem",
+    "title": "Nova Scotia Clean Energy Workforce Dashboard",
+    "section": "The Problem",
+    "text": "The Problem\nContent forthcoming."
+  },
+  {
+    "objectID": "projects/clean-energy-dashboard.html#approach",
+    "href": "projects/clean-energy-dashboard.html#approach",
+    "title": "Nova Scotia Clean Energy Workforce Dashboard",
+    "section": "Approach",
+    "text": "Approach\nContent forthcoming."
+  },
+  {
+    "objectID": "projects/clean-energy-dashboard.html#what-i-built",
+    "href": "projects/clean-energy-dashboard.html#what-i-built",
+    "title": "Nova Scotia Clean Energy Workforce Dashboard",
+    "section": "What I Built",
+    "text": "What I Built\nContent forthcoming."
+  },
+  {
+    "objectID": "projects/clean-energy-dashboard.html#technical-approach",
+    "href": "projects/clean-energy-dashboard.html#technical-approach",
+    "title": "Nova Scotia Clean Energy Workforce Dashboard",
+    "section": "Technical Approach",
+    "text": "Technical Approach\nContent forthcoming."
+  },
+  {
+    "objectID": "projects/clean-energy-dashboard.html#outcomes",
+    "href": "projects/clean-energy-dashboard.html#outcomes",
+    "title": "Nova Scotia Clean Energy Workforce Dashboard",
+    "section": "Outcomes",
+    "text": "Outcomes\nContent forthcoming."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "I work at the intersection of workforce research, labour market analysis, policy, and data analytics.\nMy background includes workforce and labour research, analytical product development, data visualization, and advising decision-makers on complex workforce questions.\nA fuller biography will be added as this portfolio develops."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jordan Lewis-Morden",
+    "section": "",
+    "text": "WORKFORCE RESEARCH + PEOPLE ANALYTICS\n\n\n\n\nI combine workforce and organizational research with analytics to help decision-makers understand complex people and labour market questions.\n\nView My Work About Me"
+  },
+  {
+    "objectID": "index.html#featured-work",
+    "href": "index.html#featured-work",
+    "title": "Jordan Lewis-Morden",
+    "section": "Featured Work",
+    "text": "Featured Work\n\nNova Scotia Clean Energy Workforce Dashboard\nAn interactive workforce planning and scenario modelling tool examining how clean-energy development affects employment and occupational demand.\nPower BI · Workforce Analytics · Scenario Modelling · Data Visualization\nView case study →"
+  },
+  {
+    "objectID": "index.html#what-i-do",
+    "href": "index.html#what-i-do",
+    "title": "Jordan Lewis-Morden",
+    "section": "What I Do",
+    "text": "What I Do\n\n\n\nPeople & Workforce Analytics\nI develop analytical tools and approaches for understanding workforce composition, demand, trends and organizational decisions.\n\n\n\nResearch & Policy\nI conduct workforce, labour market and organizational research and translate evidence into practical recommendations for decision-makers."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Selected analytics, data visualization, and workforce research projects.\n\n\n\n\n\n\n\n\n\n\n\n\nNova Scotia Clean Energy Workforce Dashboard\n\n\n\nPower BI\n\nWorkforce Analytics\n\nData Visualization\n\nScenario Modelling\n\n\n\nAn interactive workforce planning and scenario modelling tool examining employment demand associated with clean energy development.\n\n\n\n\n\nNo matching items"
   }
 ]

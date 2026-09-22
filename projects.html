@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Jordan Lewis-Morden</title>
+<title>Projects – Jordan Lewis-Morden</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -32,6 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -69,7 +71,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -92,11 +152,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -124,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Jordan Lewis-Morden</h1>
+<h1 class="title">Projects</h1>
 </div>
 
 
@@ -141,47 +201,41 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="hero-section">
-<div class="eyebrow">
-<p>WORKFORCE RESEARCH + PEOPLE ANALYTICS</p>
-</div>
-<section id="your-name" class="level1">
-<h1>Your Name</h1>
-<div class="hero-subtitle">
-<p>I combine workforce and organizational research with analytics to help decision-makers understand complex people and labour market questions.</p>
-</div>
-<p><a href="./projects.html" class="btn btn-primary">View My Work</a> <a href="./about.html" class="btn btn-outline-primary">About Me</a></p>
-</section>
-</div>
-<section id="featured-work" class="level2">
-<h2 class="anchored" data-anchor-id="featured-work">Featured Work</h2>
-<section id="nova-scotia-clean-energy-workforce-dashboard" class="level3 glass-panel">
-<h3 class="anchored" data-anchor-id="nova-scotia-clean-energy-workforce-dashboard">Nova Scotia Clean Energy Workforce Dashboard</h3>
-<p>An interactive workforce planning and scenario modelling tool examining how clean-energy development affects employment and occupational demand.</p>
-<p><strong>Power BI · Workforce Analytics · Scenario Modelling · Data Visualization</strong></p>
-<p><a href="./projects/clean-energy-dashboard.html">View case study →</a></p>
-</section>
-</section>
-<section id="what-i-do" class="level2">
-<h2 class="anchored" data-anchor-id="what-i-do">What I Do</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<section id="people-workforce-analytics" class="level3">
-<h3 class="anchored" data-anchor-id="people-workforce-analytics">People &amp; Workforce Analytics</h3>
-<p>I develop analytical tools and approaches for understanding workforce composition, demand, trends and organizational decisions.</p>
-</section>
-</div><div class="column" style="width:50%;">
-<section id="research-policy" class="level3">
-<h3 class="anchored" data-anchor-id="research-policy">Research &amp; Policy</h3>
-<p>I conduct workforce, labour market and organizational research and translate evidence into practical recommendations for decision-makers.</p>
-</section>
-</div>
-</div>
+<p>Selected analytics, data visualization, and workforce research projects.</p>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="UG93ZXIlMjBCSSUyQ1dvcmtmb3JjZSUyMEFuYWx5dGljcyUyQ0RhdGElMjBWaXN1YWxpemF0aW9uJTJDU2NlbmFyaW8lMjBNb2RlbGxpbmc=" data-listing-file-modified-sort="1790084707929" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
+<a href="./projects/clean-energy-dashboard.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Nova Scotia Clean Energy Workforce Dashboard
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UG93ZXIlMjBCSQ=='); return false;">Power BI</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('V29ya2ZvcmNlJTIwQW5hbHl0aWNz'); return false;">Workforce Analytics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFZpc3VhbGl6YXRpb24='); return false;">Data Visualization</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2NlbmFyaW8lMjBNb2RlbGxpbmc='); return false;">Scenario Modelling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>An interactive workforce planning and scenario modelling tool examining employment demand associated with clean energy development.</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
