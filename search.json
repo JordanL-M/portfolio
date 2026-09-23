@@ -9,51 +9,65 @@
   {
     "objectID": "projects/clean-energy-dashboard.html",
     "href": "projects/clean-energy-dashboard.html",
-    "title": "Nova Scotia Clean Energy Workforce Dashboard",
+    "title": "Clean Energy Labour Forcasting Dashboard",
     "section": "",
-    "text": "This case study is currently being prepared for publication."
+    "text": "Project type: Client-facing workforce analytics and decision-support tool.\nMy role: Dashboard development, data transformation, analytical implementation, scenario modelling, user experience, and documentation.\nTechnologies: Power BI, Power Query, DAX, Excel, Power Apps\nDevelopment period: Approximately three months for initial product.\nThe Clean Energy Labour Forcasting Dashboard was developed to support the labour force planning efforts of a provincial government as it made substantial, long-term investments in renewable and carbon neutral electricity generation, and related infrastructure.\nThe project required translating an existing, manually maintained labour force model into an automated data pipeline and interactive analytical tool that made the underlying data and insights more accessible to non-technical stakeholders. End users could examine projected employment demand across 10 energy types, 3 development phases, 2 occupational groupings. It also allowed users to introduce new projects and modify existing ones through an in-application “writeback” function developed using Power Apps, and develop custom scenarios via a pop out “Scenario Sandbox” tool.\nI was responsible for developing the Power BI dashboard. This included the back end data preparation pipeline, relationships, and validation, and the front end graphical design, analytical functionality, interactive elements, and scenario modelling interface.\nThe finished product combined workforce projections, occupational analysis, and user-defined development scenarios within a single decision-support environment."
   },
   {
-    "objectID": "projects/clean-energy-dashboard.html#overview",
-    "href": "projects/clean-energy-dashboard.html#overview",
-    "title": "Nova Scotia Clean Energy Workforce Dashboard",
+    "objectID": "projects/clean-energy-dashboard.html#project-overview",
+    "href": "projects/clean-energy-dashboard.html#project-overview",
+    "title": "Clean Energy Labour Forcasting Dashboard",
     "section": "",
-    "text": "This case study is currently being prepared for publication."
+    "text": "Project type: Client-facing workforce analytics and decision-support tool.\nMy role: Dashboard development, data transformation, analytical implementation, scenario modelling, user experience, and documentation.\nTechnologies: Power BI, Power Query, DAX, Excel, Power Apps\nDevelopment period: Approximately three months for initial product.\nThe Clean Energy Labour Forcasting Dashboard was developed to support the labour force planning efforts of a provincial government as it made substantial, long-term investments in renewable and carbon neutral electricity generation, and related infrastructure.\nThe project required translating an existing, manually maintained labour force model into an automated data pipeline and interactive analytical tool that made the underlying data and insights more accessible to non-technical stakeholders. End users could examine projected employment demand across 10 energy types, 3 development phases, 2 occupational groupings. It also allowed users to introduce new projects and modify existing ones through an in-application “writeback” function developed using Power Apps, and develop custom scenarios via a pop out “Scenario Sandbox” tool.\nI was responsible for developing the Power BI dashboard. This included the back end data preparation pipeline, relationships, and validation, and the front end graphical design, analytical functionality, interactive elements, and scenario modelling interface.\nThe finished product combined workforce projections, occupational analysis, and user-defined development scenarios within a single decision-support environment."
   },
   {
-    "objectID": "projects/clean-energy-dashboard.html#the-problem",
-    "href": "projects/clean-energy-dashboard.html#the-problem",
-    "title": "Nova Scotia Clean Energy Workforce Dashboard",
-    "section": "The Problem",
-    "text": "The Problem\nContent forthcoming."
+    "objectID": "projects/clean-energy-dashboard.html#the-dashboard",
+    "href": "projects/clean-energy-dashboard.html#the-dashboard",
+    "title": "Clean Energy Labour Forcasting Dashboard",
+    "section": "The Dashboard",
+    "text": "The Dashboard\n\n\n  \n\n    \n\n    \n\n      \n\n      \n        1 / 6 — Capacity Analysis\n      \n\n    \n\n\n    \n\n    \n\n      \n\n      \n        2 / 6 — Capacity Data\n      \n\n    \n\n\n    \n\n    \n\n      \n\n      \n        3 / 6 — Employment Projections\n      \n\n    \n\n\n    \n\n    \n\n      \n\n      \n        4 / 6 — Detailed Employment Analysis\n      \n\n    \n\n\n    \n\n    \n\n      \n\n      \n        5 / 6 — Employment Table\n      \n\n    \n\n    \n\n        \n\n      \n\n      \n        6 / 6 — Scenario Modelling\n      \n\n    \n\n  \n\n\n  \n\n  \n\n    \n    \n\n  \n\n\n  \n\n  \n\n    \n    \n\n  \n\n\nThe dashboard allows users to explore projected generation capacity and employment demand associated with clean-energy development.\nUsers can examine employment projections across energy technologies, development phases, and occupational groups, with interactive controls for selecting the information most relevant to their workforce-planning questions.\nThe interface brings together multiple analytical perspectives without requiring users to navigate the underlying workforce model directly."
   },
   {
-    "objectID": "projects/clean-energy-dashboard.html#approach",
-    "href": "projects/clean-energy-dashboard.html#approach",
-    "title": "Nova Scotia Clean Energy Workforce Dashboard",
-    "section": "Approach",
-    "text": "Approach\nContent forthcoming."
+    "objectID": "projects/clean-energy-dashboard.html#my-contributions",
+    "href": "projects/clean-energy-dashboard.html#my-contributions",
+    "title": "Clean Energy Labour Forcasting Dashboard",
+    "section": "My Contributions",
+    "text": "My Contributions\nI was responsible for developing the dashboard as an analytical product, including the following components.\nData transformation and analytical modeling\nTranslated an existing Excel-based workforce model into a Power BI data model, using Power Query and DAX to prepare project data, implement employment calculations, and support analysis across multiple dimensions.\nDashboard development and user experience\nDesigned and implemented passive UI elements, including the overall graphical design, buttons, and dropdowns.\nDesigned and developed the interactive reporting interface, including employment visualizations, filtering, navigation, and capacity and occupational breakdowns.\nScenario-modeling functionality\nDeveloped functionality allowing users to configure hypothetical clean-energy development scenarios and examine their implications for projected employment demand.\nProject data management\nIntegrated Power Apps functionality to support the management of project records within the dashboard environment.\nDocumentation and delivery\nProduced a comprehensive user guide and incorporated multiple rounds of client feedback to support the delivery and ongoing use of the finished product.\nThe broader project’s workforce-modeling methodology and underlying assumptions were developed collaboratively. My primary responsibilities centred on implementing the analytical model within Power BI and developing the interactive product."
   },
   {
-    "objectID": "projects/clean-energy-dashboard.html#what-i-built",
-    "href": "projects/clean-energy-dashboard.html#what-i-built",
-    "title": "Nova Scotia Clean Energy Workforce Dashboard",
-    "section": "What I Built",
-    "text": "What I Built\nContent forthcoming."
+    "objectID": "projects/clean-energy-dashboard.html#how-it-works",
+    "href": "projects/clean-energy-dashboard.html#how-it-works",
+    "title": "Clean Energy Labour Forcasting Dashboard",
+    "section": "How It Works",
+    "text": "How It Works\nThe dashboard combines three principal components:\n\nProject inventory: Information about clean-energy projects, including their technologies, development schedules, capacity, and development assumptions.\nWorkforce model: Employment assumptions and occupational distributions used to estimate workforce demand associated with the underlying projects.\nScenario modelling: User-defined development assumptions that allow users to examine potential changes in projected employment demand.\n\nThese components feed into the dashboard’s employment calculations and interactive visualizations."
+  },
+  {
+    "objectID": "projects/clean-energy-dashboard.html#scenario-modelling",
+    "href": "projects/clean-energy-dashboard.html#scenario-modelling",
+    "title": "Clean Energy Labour Forcasting Dashboard",
+    "section": "Scenario Modelling",
+    "text": "Scenario Modelling\nA central feature of the dashboard is the Scenario Sandbox, which allows users to confgiure up to three hypothetical clean-energy development scarnarios by specifying project characteristics and development assumptions.\nThese inputs are incorporated into the dashboard’s employment calculations, allowing users to examine how additional or alternative development activity would affect projected workforce demand.\nScenario results can be explored through the same employment and occupational analysis interfaces used for the underlying project inventory.\nThis functionality extends the dashboard beyond static reporting by allowing users to examine the workforce implications of different development assumptions."
   },
   {
     "objectID": "projects/clean-energy-dashboard.html#technical-approach",
     "href": "projects/clean-energy-dashboard.html#technical-approach",
-    "title": "Nova Scotia Clean Energy Workforce Dashboard",
+    "title": "Clean Energy Labour Forcasting Dashboard",
     "section": "Technical Approach",
-    "text": "Technical Approach\nContent forthcoming."
+    "text": "Technical Approach\n\n\n\nDiagram showing the process of calculating the the employment outputs of the dashboard.\n\n\nThe dashboard required translating an existing workforce model into an interactive Power BI environment while maintaining consistent calculations across multiple analytical dimensions.\nThree aspects of the implementation were particularly important.\n\n1. Employment calculations\nDeveloped DAX measures to calculate employment demand across different energy technologies and project development phases.\nThe measures incorporate the relevant workforce assumptions while supporting filtering and aggregation across the dashboard’s analytical dimensions.\n\n\n2. Occupational analysis\nImplemented occupational distributions that allow projected employment demand to be examined at different levels of occupational detail.\nThis provides users with both an overall view of workforce requirements and more detailed information about the types of workers associated with projected development activity.\n\n\n3. Integration of scenario results\nDeveloped scenario calculations that incorporate user-defined development assumptions into the dashboard’s employment analysis.\nThe resulting employment estimates can be examined alongside the underlying project inventory, allowing users to compare baseline and hypothetical workforce demand within a consistent analytical framework."
   },
   {
-    "objectID": "projects/clean-energy-dashboard.html#outcomes",
-    "href": "projects/clean-energy-dashboard.html#outcomes",
-    "title": "Nova Scotia Clean Energy Workforce Dashboard",
-    "section": "Outcomes",
-    "text": "Outcomes\nContent forthcoming."
+    "objectID": "projects/clean-energy-dashboard.html#delivery-and-outcomes",
+    "href": "projects/clean-energy-dashboard.html#delivery-and-outcomes",
+    "title": "Clean Energy Labour Forcasting Dashboard",
+    "section": "Delivery and Outcomes",
+    "text": "Delivery and Outcomes\nThe dashboard was developed over approximately three months, with responsibility for its technical implementation, interface development, testing, and iterative refinement.\nFollowing multiple rounds of client feedback, the finished product was delivered with a comprehensive user guide covering its functionality and use.\nThe client provided positive feedback on the completed dashboard, and the project subsequently entered an ongoing maintenance arrangement.\nThe finished product provides a consolidated environment for examining projected clean-energy workforce demand and exploring how alternative development scenarios could affect future occupational requirements."
+  },
+  {
+    "objectID": "projects/clean-energy-dashboard.html#back-to-projects",
+    "href": "projects/clean-energy-dashboard.html#back-to-projects",
+    "title": "Clean Energy Labour Forcasting Dashboard",
+    "section": "← Back to Projects",
+    "text": "← Back to Projects"
   },
   {
     "objectID": "about.html",
@@ -67,7 +81,7 @@
     "href": "index.html",
     "title": "Jordan Lewis-Morden",
     "section": "",
-    "text": "WORKFORCE RESEARCH + PEOPLE ANALYTICS\n\n\n\n\nI combine workforce and organizational research with analytics to help decision-makers understand complex people and labour market questions.\n\nView My Work About Me"
+    "text": "WORKFORCE STRATEGY, PEOPLE ANALYTICS, ORGANIZATIONAL RESEARCH & INTELLIGENCE\n\n\n\n\nI combine workforce and organizational research with analytics to help decision-makers understand complex people and labour market questions.\n\nView My Work About Me"
   },
   {
     "objectID": "index.html#featured-work",
@@ -88,6 +102,6 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Selected analytics, data visualization, and workforce research projects.\n\n\n\n\n\n\n\n\n\n\n\n\nNova Scotia Clean Energy Workforce Dashboard\n\n\n\nPower BI\n\nWorkforce Analytics\n\nData Visualization\n\nScenario Modelling\n\n\n\nAn interactive workforce planning and scenario modelling tool examining employment demand associated with clean energy development.\n\n\n\n\n\nNo matching items"
+    "text": "Selected analytics, data visualization, and workforce research projects.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClean Energy Labour Forcasting Dashboard\n\n\n\nPower BI\n\nWorkforce Analytics\n\nScenario Modelling\n\nData Visualization\n\n\n\nAn interactive workforce-planning and scenario-modelling tool for examining employment demand associated with clean-energy development. *Note: all images on this page depict…\n\n\n\n\n\nNo matching items"
   }
 ]

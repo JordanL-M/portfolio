@@ -305,3 +305,121 @@ main.content {
 .hero-section + h2 {
   margin-top: 1rem;
 }
+
+/* --------------------------------
+   DASHBOARD IMAGE CAROUSEL
+-------------------------------- */
+
+.dashboard-carousel {
+  margin: 2rem 0;
+
+  border-radius: var(--radius);
+
+  overflow: hidden;
+
+  background: var(--surface-solid);
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-md);
+}
+
+
+/* Dashboard images */
+
+.dashboard-carousel .carousel-item img {
+
+  width: 100%;
+
+  aspect-ratio: 16 / 9;
+
+  object-fit: contain;
+
+  background: var(--surface-solid);
+
+}
+
+
+/* Navigation arrows */
+
+.dashboard-carousel .carousel-control-prev,
+.dashboard-carousel .carousel-control-next {
+
+  width: 3rem;
+  height: 3rem;
+
+  top: 50%;
+  transform: translateY(-50%);
+
+  background: rgba(24, 35, 47, 0.8);
+
+  border-radius: 50%;
+
+  opacity: 1;
+
+}
+
+
+/* Position arrows */
+
+.dashboard-carousel .carousel-control-prev {
+  left: 0.75rem;
+}
+
+.dashboard-carousel .carousel-control-next {
+  right: 0.75rem;
+}
+
+
+/* Hover effects */
+
+.dashboard-carousel .carousel-control-prev:hover,
+.dashboard-carousel .carousel-control-next:hover {
+
+  background: var(--accent-dark);
+
+  opacity: 1;
+
+}
+
+
+/* Captions */
+
+.dashboard-slide-caption {
+
+  margin: 0;
+
+  padding: 0.8rem 1rem;
+
+  text-align: center;
+
+  color: var(--text-muted);
+
+  font-size: 0.9rem;
+
+  font-weight: 500;
+
+  background: var(--surface-solid);
+
+}
+
+/* --------------------------------
+   PROJECT CASE STUDIES
+-------------------------------- */
+
+main.content img {
+  max-width: 100%;
+  height: auto;
+
+  border-radius: 10px;
+}
+
+main.content figure {
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+main.content figcaption {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}

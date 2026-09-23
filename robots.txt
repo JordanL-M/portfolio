@@ -1,1 +1,1 @@
-Sitemap: git@github-jordan:JordanL-M/portfolio.git/sitemap.xml
+Sitemap: https://JordanLM.com/sitemap.xml
