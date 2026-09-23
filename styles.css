@@ -423,3 +423,20 @@ main.content figcaption {
   color: var(--text-muted);
   font-size: 0.9rem;
 }
+
+/* --------------------------------
+   RESEARCH PROJECT IMAGES
+-------------------------------- */
+
+.project-hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-md);
+}

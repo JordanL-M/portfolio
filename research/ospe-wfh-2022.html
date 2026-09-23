@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2022-03-01">
+<meta name="description" content="Mixed-methods research examining the effects of working from home on engineering professionals, with particular attention to women, recent graduates, and newcomers.">
 
-<title>Research &amp; Policy – Jordan Lewis-Morden</title>
+<title>Remote Work and Equity in Engineering – Jordan Lewis-Morden</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,24 +28,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,77 +71,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Jordan Lewis-Morden</span>
     </a>
   </div>
@@ -152,19 +94,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research &amp; Policy</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -175,23 +117,40 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research &amp; Policy</h1>
+<h1 class="title">Remote Work and Equity in Engineering</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Workforce Research</div>
+    <div class="quarto-category">Employee Experience</div>
+    <div class="quarto-category">Survey Analysis</div>
+    <div class="quarto-category">Qualitative Research</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Mixed-methods research examining the effects of working from home on engineering professionals, with particular attention to women, recent graduates, and newcomers.
+  </div>
 </div>
 
 
-
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 1, 2022</p>
+    </div>
+  </div>
   
     
   </div>
@@ -201,70 +160,61 @@ window.Quarto = {
 </header>
 
 
-<p>Selected workforce research, labour market analysis, policy, and organizational research.</p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="V29ya2ZvcmNlJTIwUmVzZWFyY2glMkNFbXBsb3llZSUyMEV4cGVyaWVuY2UlMkNTdXJ2ZXklMjBBbmFseXNpcyUyQ09yZ2FuaXphdGlvbmFsJTIwUmVzZWFyY2g=" data-listing-date-sort="1748750400000" data-listing-file-modified-sort="1790133258299" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="392">
-<a href="./research/ospe-wfh-2025.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/images/OSPE 2025.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Flexible Work Arrangements in Engineering
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('V29ya2ZvcmNlJTIwUmVzZWFyY2g='); return false;">Workforce Research</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RW1wbG95ZWUlMjBFeHBlcmllbmNl'); return false;">Employee Experience</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U3VydmV5JTIwQW5hbHlzaXM='); return false;">Survey Analysis</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('T3JnYW5pemF0aW9uYWwlMjBSZXNlYXJjaA=='); return false;">Organizational Research</div>
-
+<p><a href="https://ospe.on.ca/wp-content/uploads/2024/11/OSPE-Literature-Review.pdf" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">Read the Summary Report ↗</a> <a href="https://ospe.on.ca/wp-content/uploads/2024/11/Final-Report-WFH-Interviews-and-Focus-Groups_V1.pdf" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">Read the Interview Findings ↗</a> <a href="https://ospe.on.ca/wp-content/uploads/2022/03/Final-Report-Working-form-Home.pdf" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">Read the Survey Findings ↗</a></p>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../research/images/OSPE 2022.png" class="img-fluid figure-img"></p>
+<figcaption>Title page of the OSPE remote work and equity research project.</figcaption>
+</figure>
 </div>
-<div class="card-text listing-description delink">
-<p>A mixed-methods investigation of flexible and hybrid work, examining employee experience, organizational practices, and workforce implications in the engineering profession.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="V29ya2ZvcmNlJTIwUmVzZWFyY2glMkNFbXBsb3llZSUyMEV4cGVyaWVuY2UlMkNTdXJ2ZXklMjBBbmFseXNpcyUyQ1F1YWxpdGF0aXZlJTIwUmVzZWFyY2g=" data-listing-date-sort="1646110800000" data-listing-file-modified-sort="1790133278917" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="346">
-<a href="./research/ospe-wfh-2022.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/images/OSPE 2022.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Remote Work and Equity in Engineering
-</h5>
-<div class="listing-categories">
+<p><strong>Client:</strong> Ontario Society of Professional Engineers (OSPE)</p>
+<p><strong>Project:</strong> New Barriers in Engineering and Technology Jobs: The Uneven Impact of Working-at-Home on Recent Graduates, Women, and Newcomers</p>
+<p><strong>My role:</strong> Research, survey analysis, interviews, report development, and presentation</p>
+<p><strong>Methods:</strong> Survey research, interviews, focus groups, quantitative analysis, and qualitative research</p>
+<p><strong>Tools:</strong> Excel</p>
+<p>This research examined how the transition to working from home affected engineering professionals, with particular attention to the experiences of women, recent graduates, and newcomers.</p>
+<p>The study investigated the relationship between remote work, workplace experiences, career development, and organizational practices.</p>
+<p>It sought to identify both the benefits of flexible working arrangements and the challenges they presented for different groups of engineering professionals.</p>
+</section>
+<section id="research-approach" class="level2">
+<h2 class="anchored" data-anchor-id="research-approach">Research Approach</h2>
+<p>The research combined quantitative and qualitative evidence, including:</p>
+<ul>
+<li>A survey of 1,243 engineering professionals.</li>
+<li>Five focus groups involving 16 engineers.</li>
+<li>Nine interviews with engineering managers and human resources professionals.</li>
+</ul>
+<p>The study examined differences in the experiences of engineering professionals and explored how working arrangements affected communication, professional development, workplace relationships, and work-life balance.</p>
+</section>
+<section id="my-contributions" class="level2">
+<h2 class="anchored" data-anchor-id="my-contributions">My Contributions</h2>
+<p>I contributed to the research and development of the study as part of a collaborative project team.</p>
+<p>My responsibilities included:</p>
+<ul>
+<li>Supporting the development of the research methodology and survey instrument.</li>
+<li>Conducting quantitative analysis of survey findings using Excel.</li>
+<li>Participating in interviews and focus groups.</li>
+<li>Analyzing quantitative and qualitative research findings.</li>
+<li>Drafting substantial portions of the research deliverables.</li>
+<li>Supporting the development and presentation of findings to the client.</li>
+</ul>
+<p>I also contributed to the preparation and delivery of a presentation to approximately 15–20 OSPE representatives.</p>
+</section>
+<section id="findings-and-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="findings-and-outcomes">Findings and Outcomes</h2>
+<p>The research identified benefits associated with working from home, including improvements in work-life balance and perceived productivity.</p>
+<p>It also identified challenges relating to communication, mentorship, informal learning, and professional development.</p>
+<p>These findings informed recommendations concerning flexible working arrangements and the experiences of different groups within the engineering workforce.</p>
+<p>The completed research provided OSPE with evidence to support its advocacy and engagement concerning workplace practices in the engineering profession.</p>
+<hr>
+<p><a href="../research.html">← Back to Research &amp; Policy</a></p>
 
-<div class="listing-category" onclick="window.quartoListingCategory('V29ya2ZvcmNlJTIwUmVzZWFyY2g='); return false;">Workforce Research</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('RW1wbG95ZWUlMjBFeHBlcmllbmNl'); return false;">Employee Experience</div>
+</section>
 
-<div class="listing-category" onclick="window.quartoListingCategory('U3VydmV5JTIwQW5hbHlzaXM='); return false;">Survey Analysis</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXVhbGl0YXRpdmUlMjBSZXNlYXJjaA=='); return false;">Qualitative Research</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Mixed-methods research examining the effects of working from home on engineering professionals, with particular attention to women, recent graduates, and newcomers.</p>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

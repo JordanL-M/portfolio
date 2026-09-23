@@ -1,7 +1,10 @@
 [
   {
     "listing": "/research.html",
-    "items": []
+    "items": [
+      "/research/ospe-wfh-2025.html",
+      "/research/ospe-wfh-2022.html"
+    ]
   },
   {
     "listing": "/projects.html",
