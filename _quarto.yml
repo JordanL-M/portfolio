@@ -3,7 +3,7 @@ project:
 
 website:
   title: "Jordan Lewis-Morden"
-  site-url: "https://JordanLM.com"
+  site-url: "https://jordanlm.com"
   navbar:
     pinned: true
     left:
