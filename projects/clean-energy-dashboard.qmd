@@ -1,7 +1,7 @@
 ---
 title: "Clean Energy Labour Forcasting Dashboard"
 
-description: "An interactive workforce-planning and scenario-modelling tool for examining employment demand associated with clean-energy development."
+description: "An interactive workforce-planning and scenario-modelling tool for examining employment demand associated with clean-energy development. *Note: all images on this page depict a steralized version of the dashboard, with all identifying characteristics of projects and calculations altered or removed.*"
 
 categories:
   - Power BI
@@ -18,19 +18,19 @@ toc-title: "On This Page"
 
 ## Project Overview
 
-**Project type:** Client-facing workforce analytics and decision-support tool
+**Project type:** Client-facing workforce analytics and decision-support tool.
 
-**My role:** Dashboard development, data transformation, analytical implementation, scenario modelling, user experience, and documentation
+**My role:** Dashboard development, data transformation, analytical implementation, scenario modelling, user experience, and documentation.
 
 **Technologies:** Power BI, Power Query, DAX, Excel, Power Apps
 
-**Development period:** Approximately three months
+**Development period:** Approximately three months for initial product.
 
-The Nova Scotia Clean Energy Workforce Dashboard was developed to support workforce planning associated with the province's transition toward clean energy.
+The Clean Energy Labour Forcasting Dashboard was developed to support the labour force planning efforts of a provincial government as it made substantial, long-term investments in renewable and carbon neutral electricity generation, and related infrastructure.
 
-The project required translating an existing workforce model into an accessible analytical tool that could help users examine projected employment demand across different energy technologies, development phases, and occupational groups.
+The project required translating an existing, manually maintained labour force model into an automated data pipeline and interactive analytical tool that made the underlying data and insights more accessible to non-technical stakeholders. End users could examine projected employment demand across 10 energy types, 3 development phases, 2 occupational groupings. It also allowed users to introduce new projects and modify existing ones through an in-application "writeback" function developed using Power Apps, and develop custom scenarios via a pop out "Scenario Sandbox" tool.
 
-I was responsible for developing the Power BI dashboard, implementing its analytical functionality, and designing an interactive scenario-modelling interface.
+I was responsible for developing the Power BI dashboard. This included the back end data preparation pipeline, relationships, and validation, and the front end graphical design, analytical functionality, interactive elements, and scenario modelling interface.
 
 The finished product combined workforce projections, occupational analysis, and user-defined development scenarios within a single decision-support environment.
 
@@ -54,7 +54,7 @@ The finished product combined workforce projections, occupational analysis, and 
       >
 
       <p class="dashboard-slide-caption">
-        1 / 5 — Capacity Analysis
+        1 / 6 — Capacity Analysis
       </p>
 
     </div>
@@ -72,7 +72,7 @@ The finished product combined workforce projections, occupational analysis, and 
       >
 
       <p class="dashboard-slide-caption">
-        2 / 5 — Capacity Data
+        2 / 6 — Capacity Data
       </p>
 
     </div>
@@ -90,7 +90,7 @@ The finished product combined workforce projections, occupational analysis, and 
       >
 
       <p class="dashboard-slide-caption">
-        3 / 5 — Employment Projections
+        3 / 6 — Employment Projections
       </p>
 
     </div>
@@ -108,15 +108,32 @@ The finished product combined workforce projections, occupational analysis, and 
       >
 
       <p class="dashboard-slide-caption">
-        4 / 5 — Detailed Employment Analysis
+        4 / 6 — Detailed Employment Analysis
       </p>
 
     </div>
 
 
-    <!-- Screenshot 5: Scenario Sandbox -->
+    <!-- Screenshot 5: Employment Table -->
 
     <div class="carousel-item">
+
+      <img
+        src="images/employment_tbl(clean).png"
+        class="d-block w-100"
+        alt="Clean Energy Dashboard scenario modelling sandbox"
+        loading="lazy"
+      >
+
+      <p class="dashboard-slide-caption">
+        5 / 6 — Employment Table
+      </p>
+
+    <!-- Screenshot 6: Scenario Sandbox -->
+
+    </div>
+
+        <div class="carousel-item">
 
       <img
         src="images/sandbox(clean).png"
@@ -126,7 +143,7 @@ The finished product combined workforce projections, occupational analysis, and 
       >
 
       <p class="dashboard-slide-caption">
-        5 / 5 — Scenario Modelling
+        6 / 6 — Scenario Modelling
       </p>
 
     </div>
@@ -170,7 +187,7 @@ The finished product combined workforce projections, occupational analysis, and 
 </div>
 ```
 
-The dashboard allows users to explore projected employment demand associated with clean-energy development in Nova Scotia.
+The dashboard allows users to explore projected generation capacity and employment demand associated with clean-energy development.
 
 Users can examine employment projections across energy technologies, development phases, and occupational groups, with interactive controls for selecting the information most relevant to their workforce-planning questions.
 
@@ -186,7 +203,9 @@ Translated an existing Excel-based workforce model into a Power BI data model, u
 
 **Dashboard development and user experience**
 
-Designed and developed the interactive reporting interface, including employment visualizations, filtering, navigation, and occupational breakdowns.
+Designed and implemented passive UI elements, including the overall graphical design, buttons, and dropdowns.
+
+Designed and developed the interactive reporting interface, including employment visualizations, filtering, navigation, and capacity and occupational breakdowns.
 
 **Scenario-modeling functionality**
 
@@ -194,7 +213,7 @@ Developed functionality allowing users to configure hypothetical clean-energy de
 
 **Project data management**
 
-Integrated Power Apps functionality to support the management of project records within the broader dashboard environment.
+Integrated Power Apps functionality to support the management of project records within the dashboard environment.
 
 **Documentation and delivery**
 
@@ -206,7 +225,7 @@ The broader project's workforce-modeling methodology and underlying assumptions 
 
 The dashboard combines three principal components:
 
-1.  **Project inventory:** Information about clean-energy projects, including their technologies, development schedules, capacity, and investment assumptions.
+1.  **Project inventory:** Information about clean-energy projects, including their technologies, development schedules, capacity, and development assumptions.
 
 2.  **Workforce model:** Employment assumptions and occupational distributions used to estimate workforce demand associated with the underlying projects.
 
@@ -214,24 +233,9 @@ The dashboard combines three principal components:
 
 These components feed into the dashboard's employment calculations and interactive visualizations.
 
-```{mermaid}
-flowchart TD
-    A["Clean-energy project inventory"] --> D["Employment calculations"]
-    B["Workforce assumptions and occupational mappings"] --> D
-    C["User-defined development scenarios"] --> D
-
-    D --> E["Employment projections"]
-    E --> F["Analysis by year, technology and development phase"]
-    E --> G["Occupational demand analysis"]
-```
-
-*Conceptual overview of the dashboard's analytical functionality. The diagram is simplified and does not represent the complete Power BI data model.*
-
 ## Scenario Modelling
 
-A central feature of the dashboard is its ability to examine hypothetical clean-energy development scenarios.
-
-Users can configure up to three scenarios by specifying project characteristics and development assumptions.
+A central feature of the dashboard is the Scenario Sandbox, which allows users to confgiure up to three hypothetical clean-energy development scarnarios by specifying project characteristics and development assumptions.
 
 These inputs are incorporated into the dashboard's employment calculations, allowing users to examine how additional or alternative development activity would affect projected workforce demand.
 
@@ -240,6 +244,7 @@ Scenario results can be explored through the same employment and occupational an
 This functionality extends the dashboard beyond static reporting by allowing users to examine the workforce implications of different development assumptions.
 
 ## Technical Approach
+![Diagram showing the process of calculating the the employment outputs of the dashboard.](..\projects\images\diagram - calculation.png)
 
 The dashboard required translating an existing workforce model into an interactive Power BI environment while maintaining consistent calculations across multiple analytical dimensions.
 

@@ -6,10 +6,10 @@ page-layout: full
 ::: {.hero-section}
 
 ::: {.eyebrow}
-WORKFORCE RESEARCH + PEOPLE ANALYTICS
+WORKFORCE STRATEGY, PEOPLE ANALYTICS, ORGANIZATIONAL RESEARCH & INTELLIGENCE
 :::
 
-# Your Name
+# Who I Am
 
 ::: {.hero-subtitle}
 I combine workforce and organizational research with analytics to help decision-makers understand complex people and labour market questions.
