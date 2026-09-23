@@ -9,7 +9,7 @@ categories:
   - Scenario Modelling
   - Data Visualization
 
-image: ../assets/images/clean-energy/dashboard-overview.webp
+image: ..\projects\images\employment_chart_tooltip(clean).png
 
 toc: true
 
