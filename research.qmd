@@ -1,12 +1,14 @@
 ---
 title: "Research & Policy"
+
 listing:
-  contents: research
+  contents: "research/*.qmd"
   type: grid
-  sort: false
+  sort: "date desc"
   fields: [image, title, description, categories]
   filter-ui: false
   sort-ui: false
+
 page-layout: full
 ---
 

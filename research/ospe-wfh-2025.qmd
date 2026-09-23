@@ -1,0 +1,82 @@
+---
+title: "Flexible Work Arrangements in Engineering"
+
+description: "A mixed-methods investigation of flexible and hybrid work, examining employee experience, organizational practices, and workforce implications in the engineering profession."
+
+categories:
+  - Workforce Research
+  - Employee Experience
+  - Survey Analysis
+  - Organizational Research
+
+date: 2025-06-01
+
+image: ../research/images/OSPE 2025.png
+
+toc: false
+---
+[Read the Report ↗](https://ospe.aflip.in/WAGE-2025#page/1){.btn .btn-outline-primary target="_blank" rel="noopener noreferrer"}
+
+## Project Overview
+![Title page of the OSPE remote work and equity research project.](../research/images/OSPE 2025.png)
+
+**Client:** Ontario Society of Professional Engineers (OSPE)
+
+**Project:** Finding the Right Balance: An Evidence-Based Examination of Flexible Work Arrangements
+
+**My role:** Research design, project coordination, quantitative and qualitative analysis, report development, and client presentation
+
+**Methods:** Survey research, interviews, literature review, quantitative analysis, and qualitative research
+
+**Tools:** Excel
+
+This research investigated the implications of flexible and hybrid working arrangements for engineering professionals and their employers.
+
+The study examined how different working arrangements affected employee experience, professional development, workplace relationships, and organizational practices.
+
+Particular attention was given to the experiences of women in engineering and the implications of flexible work for recruitment, retention, and workplace equity.
+
+The objective was to develop an evidence-based understanding of the benefits and challenges of flexible work and identify practices that could better support both employees and organizations.
+
+## Research Approach
+
+The research combined several sources of evidence:
+
+- A survey of OSPE members, with 1,199 valid responses.
+- Interviews with 15 engineering employers and recruiters.
+- An employer survey examining organizational experiences with flexible work.
+- A literature review and environmental scan.
+- Comparisons with previous research on working arrangements in the engineering profession.
+
+The analysis examined employee experiences, employer perspectives, and differences in the implications of flexible work across organizational and workforce contexts.
+
+## My Contributions
+
+I served as the primary author and day-to-day research lead.
+
+My responsibilities included:
+
+- Developing the research approach and supporting survey design.
+- Coordinating research activities and client meetings.
+- Conducting quantitative survey analysis using Excel.
+- Analyzing interview findings and employer survey results.
+- Integrating findings from multiple sources into a coherent research narrative.
+- Developing the principal research reports and supporting deliverables.
+- Preparing and delivering a presentation of the research findings.
+- Incorporating client feedback and coordinating revisions.
+
+The project involved the preparation of a comprehensive primary research report, supporting analyses, and a presentation for approximately 15–20 OSPE representatives.
+
+## Findings and Outcomes
+
+The research identified benefits associated with flexible work, including improved employee satisfaction and potential advantages for recruitment and retention.
+
+It also identified challenges associated with remote work, particularly where organizational practices did not adequately support communication, collaboration, mentorship, and professional development.
+
+The findings informed recommendations concerning the design and implementation of hybrid working arrangements, including the importance of deliberate coordination between remote and in-person work.
+
+The completed research provided an evidence base for OSPE's engagement and advocacy concerning flexible working arrangements in the engineering profession.
+
+---
+
+[← Back to Research & Policy](../research.qmd)

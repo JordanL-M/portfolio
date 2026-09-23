@@ -1,0 +1,78 @@
+---
+title: "Remote Work and Equity in Engineering"
+
+description: "Mixed-methods research examining the effects of working from home on engineering professionals, with particular attention to women, recent graduates, and newcomers."
+
+categories:
+  - Workforce Research
+  - Employee Experience
+  - Survey Analysis
+  - Qualitative Research
+
+date: 2022-03-01
+
+image: ../research/images/OSPE 2022.png
+
+toc: false
+---
+[Read the Summary Report ↗](https://ospe.on.ca/wp-content/uploads/2024/11/OSPE-Literature-Review.pdf){.btn .btn-outline-primary target="_blank" rel="noopener noreferrer"}
+[Read the Interview Findings ↗](https://ospe.on.ca/wp-content/uploads/2024/11/Final-Report-WFH-Interviews-and-Focus-Groups_V1.pdf){.btn .btn-outline-primary target="_blank" rel="noopener noreferrer"}
+[Read the Survey Findings ↗](https://ospe.on.ca/wp-content/uploads/2022/03/Final-Report-Working-form-Home.pdf){.btn .btn-outline-primary target="_blank" rel="noopener noreferrer"}
+
+## Project Overview
+![Title page of the OSPE remote work and equity research project.](../research/images/OSPE 2022.png)
+
+**Client:** Ontario Society of Professional Engineers (OSPE)
+
+**Project:** New Barriers in Engineering and Technology Jobs: The Uneven Impact of Working-at-Home on Recent Graduates, Women, and Newcomers
+
+**My role:** Research, survey analysis, interviews, report development, and presentation
+
+**Methods:** Survey research, interviews, focus groups, quantitative analysis, and qualitative research
+
+**Tools:** Excel
+
+This research examined how the transition to working from home affected engineering professionals, with particular attention to the experiences of women, recent graduates, and newcomers.
+
+The study investigated the relationship between remote work, workplace experiences, career development, and organizational practices.
+
+It sought to identify both the benefits of flexible working arrangements and the challenges they presented for different groups of engineering professionals.
+
+## Research Approach
+
+The research combined quantitative and qualitative evidence, including:
+
+- A survey of 1,243 engineering professionals.
+- Five focus groups involving 16 engineers.
+- Nine interviews with engineering managers and human resources professionals.
+
+The study examined differences in the experiences of engineering professionals and explored how working arrangements affected communication, professional development, workplace relationships, and work-life balance.
+
+## My Contributions
+
+I contributed to the research and development of the study as part of a collaborative project team.
+
+My responsibilities included:
+
+- Supporting the development of the research methodology and survey instrument.
+- Conducting quantitative analysis of survey findings using Excel.
+- Participating in interviews and focus groups.
+- Analyzing quantitative and qualitative research findings.
+- Drafting substantial portions of the research deliverables.
+- Supporting the development and presentation of findings to the client.
+
+I also contributed to the preparation and delivery of a presentation to approximately 15–20 OSPE representatives.
+
+## Findings and Outcomes
+
+The research identified benefits associated with working from home, including improvements in work-life balance and perceived productivity.
+
+It also identified challenges relating to communication, mentorship, informal learning, and professional development.
+
+These findings informed recommendations concerning flexible working arrangements and the experiences of different groups within the engineering workforce.
+
+The completed research provided OSPE with evidence to support its advocacy and engagement concerning workplace practices in the engineering profession.
+
+---
+
+[← Back to Research & Policy](../research.qmd)
