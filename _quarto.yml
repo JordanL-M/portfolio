@@ -9,8 +9,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: projects.qmd
-        text: Projects
+      - href: analytics_projects.qmd
+        text: Analyics Projects
       - href: research.qmd
         text: Research & Policy
       - href: about.qmd

@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Analytics Projects"
 listing:
   contents: projects
   type: grid

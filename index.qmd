@@ -3,57 +3,56 @@ title: Jordan Lewis-Morden
 page-layout: full
 ---
 
-::: {.hero-section}
-
-::: {.eyebrow}
+::::::: hero-section
+::: eyebrow
 WORKFORCE STRATEGY, PEOPLE ANALYTICS, ORGANIZATIONAL RESEARCH & INTELLIGENCE
 :::
 
-# Who I Am
+# Featured Work
 
-::: {.hero-subtitle}
-I combine workforce and organizational research with analytics to help decision-makers understand complex people and labour market questions.
-:::
-
-[View My Work](projects.qmd){.btn .btn-primary}
-[About Me](about.qmd){.btn .btn-outline-primary}
-
-:::
-
-
-## Featured Work
-
-::: {.glass-panel}
-
-### Clean Energy Labour Forecasting Dashboard
+::::: featured-grid
+::: glass-panel
+## Clean Energy Labour Forecasting Dashboard
 
 An interactive workforce planning and scenario modelling tool examining how clean-energy development affects employment and occupational demand.
 
 **Power BI · Workforce Analytics · Scenario Modelling · Data Visualization**
 
 [View case study →](projects/clean-energy-dashboard.qmd)
-
 :::
 
+::: glass-panel
+## OSPE Working from Home Study (2025)
 
-## What I Do
+A mixed-methods research project incorporating formal research, a survey, interviews, and focus groups to understand the impacts of working from home on engineers across Ontario.
 
-::: {.columns}
+**Research · Workforce Analytics · Interviews · Surveys · Data Analysis**
 
+[View case study →](research/ospe-wfh-2025.qmd)
+:::
+:::::
+:::::::
+
+# Who I Am
+
+::: hero-subtitle
+I combine workforce and organizational research with analytics to help decision-makers understand complex people and labour market questions.
+:::
+
+[View My Work](analytics_projects.qmd){.btn .btn-primary} [About Me](about.qmd){.btn .btn-outline-primary}
+
+# What I Do
+
+::::: columns
 ::: {.column width="50%"}
-
-### People & Workforce Analytics
+## People & Workforce Analytics
 
 I develop analytical tools and approaches for understanding workforce composition, demand, trends and organizational decisions.
-
 :::
 
 ::: {.column width="50%"}
-
-### Research & Policy
+## Research & Policy
 
 I conduct workforce, labour market and organizational research and translate evidence into practical recommendations for decision-makers.
-
 :::
-
-:::
+:::::

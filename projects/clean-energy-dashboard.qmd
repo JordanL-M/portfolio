@@ -1,7 +1,7 @@
 ---
 title: "Clean Energy Labour Forcasting Dashboard"
 
-description: "An interactive workforce-planning and scenario-modelling tool for examining employment demand associated with clean-energy development. *Note: all images on this page depict a steralized version of the dashboard, with all identifying characteristics of projects and calculations altered or removed.*"
+description: "An interactive workforce-planning and scenario-modelling tool for examining generation capacity and employment demand associated with clean-energy development. *Note: all images on this page depict a steralized version of the dashboard, with all identifying characteristics of projects and calculations altered or removed.*"
 
 categories:
   - Power BI
@@ -28,9 +28,9 @@ toc-title: "On This Page"
 
 The Clean Energy Labour Forcasting Dashboard was developed to support the labour force planning efforts of a provincial government as it made substantial, long-term investments in renewable and carbon neutral electricity generation, and related infrastructure.
 
-The project required translating an existing, manually maintained labour force model into an automated data pipeline and interactive analytical tool that made the underlying data and insights more accessible to non-technical stakeholders. End users could examine projected employment demand across 10 energy types, 3 development phases, 2 occupational groupings. It also allowed users to introduce new projects and modify existing ones through an in-application "writeback" function developed using Power Apps, and develop custom scenarios via a pop out "Scenario Sandbox" tool.
+The project required translating an existing, manually maintained labour force model into an automated data pipeline and interactive analytical tool that made the underlying data and insights more accessible to non-technical stakeholders. End users could examine projected capacity and employment demand across 10 energy types, 3 development phases, and 2 occupational groupings. It also allowed users to introduce new projects and modify existing ones through an in-application "writeback" function developed using Power Apps, and develop custom scenarios via a pop out "Scenario Sandbox" tool.
 
-I was responsible for developing the Power BI dashboard. This included the back end data preparation pipeline, relationships, and validation, and the front end graphical design, analytical functionality, interactive elements, and scenario modelling interface.
+I was responsible for developing the Power BI dashboard. This included the back end data preparation and processing pipeline, relationships, and validation, and the front end graphical design, analytical functionality, interactive elements, and scenario modelling interface.
 
 The finished product combined workforce projections, occupational analysis, and user-defined development scenarios within a single decision-support environment.
 
@@ -195,21 +195,21 @@ The interface brings together multiple analytical perspectives without requiring
 
 ## My Contributions
 
-I was responsible for developing the dashboard as an analytical product, including the following components.
+I was responsible for developing the dashboard as an analytical product, including the following components:
 
-**Data transformation and analytical modeling**
+**Data transformation and analytical modelling**
 
 Translated an existing Excel-based workforce model into a Power BI data model, using Power Query and DAX to prepare project data, implement employment calculations, and support analysis across multiple dimensions.
 
 **Dashboard development and user experience**
 
-Designed and implemented passive UI elements, including the overall graphical design, buttons, and dropdowns.
+Designed and implemented passive UI elements, including the layout and overall visual design.
 
 Designed and developed the interactive reporting interface, including employment visualizations, filtering, navigation, and capacity and occupational breakdowns.
 
-**Scenario-modeling functionality**
+**Scenario-modelling functionality**
 
-Developed functionality allowing users to configure hypothetical clean-energy development scenarios and examine their implications for projected employment demand.
+Developed functionality allowing users to configure hypothetical clean-energy development scenarios and examine their implications for projected capacity and employment demand.
 
 **Project data management**
 
@@ -219,7 +219,7 @@ Integrated Power Apps functionality to support the management of project records
 
 Produced a comprehensive user guide and incorporated multiple rounds of client feedback to support the delivery and ongoing use of the finished product.
 
-The broader project's workforce-modeling methodology and underlying assumptions were developed collaboratively. My primary responsibilities centred on implementing the analytical model within Power BI and developing the interactive product.
+The broader project's workforce-modelling methodology and underlying assumptions were developed collaboratively. My primary responsibilities centred on implementing the analytical model within Power BI and developing the interactive product.
 
 ## How It Works
 
@@ -235,7 +235,7 @@ These components feed into the dashboard's employment calculations and interacti
 
 ## Scenario Modelling
 
-A central feature of the dashboard is the Scenario Sandbox, which allows users to confgiure up to three hypothetical clean-energy development scarnarios by specifying project characteristics and development assumptions.
+A central feature of the dashboard is the Scenario Sandbox, which allows users to configure up to three hypothetical clean-energy development scenarios by specifying project characteristics and development assumptions.
 
 These inputs are incorporated into the dashboard's employment calculations, allowing users to examine how additional or alternative development activity would affect projected workforce demand.
 
@@ -244,7 +244,8 @@ Scenario results can be explored through the same employment and occupational an
 This functionality extends the dashboard beyond static reporting by allowing users to examine the workforce implications of different development assumptions.
 
 ## Technical Approach
-![Diagram showing the process of calculating the the employment outputs of the dashboard.](..\projects\images\diagram - calculation.png)
+
+![Diagram showing the process of calculating the the employment outputs of the dashboard.](..\projects\images\diagram%20-%20calculation.png)
 
 The dashboard required translating an existing workforce model into an interactive Power BI environment while maintaining consistent calculations across multiple analytical dimensions.
 
@@ -270,12 +271,12 @@ The resulting employment estimates can be examined alongside the underlying proj
 
 ## Delivery and Outcomes
 
-The dashboard was developed over approximately three months, with responsibility for its technical implementation, interface development, testing, and iterative refinement.
+The dashboard was developed over approximately three months, during which I was given sole responsibility for its technical implementation, interface development, testing, and iterative refinement.
 
 Following multiple rounds of client feedback, the finished product was delivered with a comprehensive user guide covering its functionality and use.
 
-The client provided positive feedback on the completed dashboard, and the project subsequently entered an ongoing maintenance arrangement.
+Client reception of the completed dashboard was very positive, and the project subsequently entered an ongoing maintenance arrangement.
 
-The finished product provides a consolidated environment for examining projected clean-energy workforce demand and exploring how alternative development scenarios could affect future occupational requirements.
+The finished product provides a consolidated environment for examining projected clean-energy capacity and workforce demand and enables the exploration of alternative development scenarios and how they could affect future occupational requirements.
 
-## [← Back to Projects](../projects.qmd)
+## [← Back to Analytics Projects](../analytics_projects.qmd)

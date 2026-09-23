@@ -1,7 +1,7 @@
 ---
 title: "Remote Work and Equity in Engineering"
 
-description: "Mixed-methods research examining the effects of working from home on engineering professionals, with particular attention to women, recent graduates, and newcomers."
+description: "A mixed-methods research examining the effects of working from home on engineering professionals, with particular attention paid to women, recent graduates, and newcomers. This research was among the first of its kind, conducted during the COVID-19 pandemic, and became the basis for a follow-up study in 2025 continuing to explore the evolution of hybrid and flexible working arrangements on engineers."
 
 categories:
   - Workforce Research
@@ -15,12 +15,12 @@ image: ../research/images/OSPE 2022.png
 
 toc: false
 ---
-[Read the Summary Report ↗](https://ospe.on.ca/wp-content/uploads/2024/11/OSPE-Literature-Review.pdf){.btn .btn-outline-primary target="_blank" rel="noopener noreferrer"}
-[Read the Interview Findings ↗](https://ospe.on.ca/wp-content/uploads/2024/11/Final-Report-WFH-Interviews-and-Focus-Groups_V1.pdf){.btn .btn-outline-primary target="_blank" rel="noopener noreferrer"}
-[Read the Survey Findings ↗](https://ospe.on.ca/wp-content/uploads/2022/03/Final-Report-Working-form-Home.pdf){.btn .btn-outline-primary target="_blank" rel="noopener noreferrer"}
 
-## Project Overview
-![Title page of the OSPE remote work and equity research project.](../research/images/OSPE 2022.png)
+[Read the Summary Report ↗](https://ospe.on.ca/wp-content/uploads/2024/11/OSPE-Literature-Review.pdf){.btn .btn-outline-primary target="_blank" rel="noopener noreferrer"} [Read the Interview Findings ↗](https://ospe.on.ca/wp-content/uploads/2024/11/Final-Report-WFH-Interviews-and-Focus-Groups_V1.pdf){.btn .btn-outline-primary target="_blank" rel="noopener noreferrer"} [Read the Survey Findings ↗](https://ospe.on.ca/wp-content/uploads/2022/03/Final-Report-Working-form-Home.pdf){.btn .btn-outline-primary target="_blank" rel="noopener noreferrer"}
+
+# Project Overview
+
+![Title page of the OSPE remote work and equity research project.](../research/images/OSPE%202022.png)
 
 **Client:** Ontario Society of Professional Engineers (OSPE)
 
@@ -30,15 +30,19 @@ toc: false
 
 **Methods:** Survey research, interviews, focus groups, quantitative analysis, and qualitative research
 
-**Tools:** Excel
+**Tools:** Microsoft Word, Microsoft Excel, Microsoft PowerPoint, Zotero
 
-This research examined how the transition to working from home affected engineering professionals, with particular attention to the experiences of women, recent graduates, and newcomers.
+Spurred by the lockdowns instituted in response to the COVID-19 pandemic, this research project examined how the transition to working from home affected engineering professionals, with particular attention to the experiences of women, recent graduates, and newcomers.
 
 The study investigated the relationship between remote work, workplace experiences, career development, and organizational practices.
 
 It sought to identify both the benefits of flexible working arrangements and the challenges they presented for different groups of engineering professionals.
 
-## Research Approach
+It was among the first of its kind as a major organisational and occupational study focusing directly on the unique and then ongoing disruptions brought on by and in response to the COVID-19 pandemic.
+
+This study serves as the foundation for a follow up study conducted in 2025.
+
+# Research Approach
 
 The research combined quantitative and qualitative evidence, including:
 
@@ -48,7 +52,7 @@ The research combined quantitative and qualitative evidence, including:
 
 The study examined differences in the experiences of engineering professionals and explored how working arrangements affected communication, professional development, workplace relationships, and work-life balance.
 
-## My Contributions
+# My Contributions
 
 I contributed to the research and development of the study as part of a collaborative project team.
 
@@ -63,7 +67,7 @@ My responsibilities included:
 
 I also contributed to the preparation and delivery of a presentation to approximately 15–20 OSPE representatives.
 
-## Findings and Outcomes
+# Findings and Outcomes
 
 The research identified benefits associated with working from home, including improvements in work-life balance and perceived productivity.
 
@@ -73,6 +77,6 @@ These findings informed recommendations concerning flexible working arrangements
 
 The completed research provided OSPE with evidence to support its advocacy and engagement concerning workplace practices in the engineering profession.
 
----
+------------------------------------------------------------------------
 
 [← Back to Research & Policy](../research.qmd)
