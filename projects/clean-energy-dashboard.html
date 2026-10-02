@@ -431,20 +431,24 @@ Note
 </section>
 </div>
 </div>
-</section>
-<section id="backend-writeback-architecture" class="level2">
-<h2 class="anchored" data-anchor-id="backend-writeback-architecture">Backend &amp; Writeback Architecture</h2>
+<div class="walkthrough-section">
+<div class="walkthrough-media">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/diagram_backend.png" class="img-fluid figure-img"></p>
+<figcaption>Diagram showing the backend design of the dashboard and writeback function.</figcaption>
+</figure>
+</div>
+</div>
+<section id="backend-writeback-architecture" class="level3 walkthrough-copy">
+<h3 class="anchored" data-anchor-id="backend-writeback-architecture">Backend &amp; Writeback Architecture</h3>
 <p>The dashboard operates on an unconventional backend design shaped by the client’s technical and accessibility requirements.</p>
 <p>Rather than relying on a conventional SQL database, the dashboard uses a series of Excel workbooks stored within a SharePoint environment.</p>
 <p>Four of the five workbooks contain research inputs that are effectively static. The Project Inventory remains directly editable and acts as the source of truth for project-level information.</p>
 <p>Authorized users can modify the Project Inventory either through the underlying SharePoint-hosted Excel workbook or through an embedded Power Apps interface within Power BI.</p>
 <p>The Power Apps interface allows users to add, edit, and delete projects without leaving the dashboard environment.</p>
 <p>When the semantic model is refreshed, the updated Project Inventory is read from SharePoint and incorporated into the dashboard’s calculations.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/diagram_backend.png" class="img-fluid figure-img"></p>
-<figcaption>Diagram showing the backend design of the dashboard and writeback function.</figcaption>
-</figure>
+</section>
 </div>
 </section>
 <section id="delivery-and-outcomes" class="level2">
