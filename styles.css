@@ -482,3 +482,206 @@ main.content figcaption {
   }
 
 }
+
+/* --------------------------------
+   SCROLLYTELLING / STICKY PROJECT SECTIONS
+-------------------------------- */
+
+.story-step {
+  display: grid;
+
+  /* Dashboard imagery gets substantially more space
+     than the explanatory text */
+  grid-template-columns:
+    minmax(0, 1.5fr)
+    minmax(320px, 0.7fr);
+
+  gap: 3.5rem;
+
+  align-items: start;
+
+  /* Break the walkthrough out of Quarto's normal
+     article-width constraint */
+  width: min(1500px, calc(100vw - 6rem));
+
+  position: relative;
+
+  left: 50%;
+  transform: translateX(-50%);
+
+  margin-top: 5rem;
+  margin-bottom: 7rem;
+}
+
+
+/* --------------------------------
+   STICKY MEDIA COLUMN
+-------------------------------- */
+
+.story-media {
+  position: sticky;
+
+  /* Leave room for the pinned navigation bar */
+  top: 6rem;
+}
+
+
+/* --------------------------------
+   STORY IMAGES
+-------------------------------- */
+
+.story-image {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  max-height: calc(100vh - 8rem);
+
+  object-fit: contain;
+
+  border-radius: 12px;
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-md);
+}
+
+
+/* --------------------------------
+   STORY TEXT
+-------------------------------- */
+
+.story-copy {
+  padding-bottom: 2rem;
+}
+
+.story-copy h3 {
+  margin-top: 0;
+
+  font-size: 1.6rem;
+}
+
+.story-copy p {
+  margin-bottom: 1.5rem;
+
+  line-height: 1.75;
+}
+
+
+/* --------------------------------
+   STATIC STORY SECTIONS
+
+   Use this when the media is taller than the text
+   and sticky scrolling would not add useful behaviour.
+-------------------------------- */
+
+.story-static {
+  align-items: center;
+
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+
+.story-static .story-media {
+  position: relative;
+
+  top: auto;
+}
+
+.story-static .story-copy {
+  align-self: center;
+
+  padding-bottom: 0;
+}
+
+
+/* --------------------------------
+   MULTIPLE IMAGES IN ONE STORY STEP
+-------------------------------- */
+
+.story-media-pair {
+  display: grid;
+
+  gap: 1.25rem;
+}
+
+.story-image-block {
+  margin: 0;
+}
+
+.story-media-pair .story-image {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  /* Keep both screenshots reasonably sized without
+     allowing the pair to become excessively tall */
+  max-height: calc((100vh - 10rem) / 2);
+
+  object-fit: contain;
+}
+
+.story-image-label {
+  margin-top: 0.4rem;
+
+  color: var(--text-muted);
+
+  font-size: 0.82rem;
+  font-weight: 600;
+
+  text-align: center;
+}
+
+
+/* --------------------------------
+   MOBILE / TABLET
+-------------------------------- */
+
+@media (max-width: 900px) {
+
+  .story-step {
+    grid-template-columns: 1fr;
+
+    width: 100%;
+
+    left: auto;
+    transform: none;
+
+    gap: 1.5rem;
+
+    margin-top: 3.5rem;
+    margin-bottom: 4rem;
+  }
+
+
+  /* Sticky layouts are not useful on narrow screens */
+
+  .story-media {
+    position: relative;
+
+    top: auto;
+  }
+
+
+  /* Static sections behave like ordinary stacked content */
+
+  .story-static {
+    align-items: start;
+  }
+
+  .story-static .story-copy {
+    align-self: auto;
+
+    padding-bottom: 0;
+  }
+
+
+  /* Let paired screenshots use their natural height */
+
+  .story-media-pair .story-image {
+    max-height: none;
+  }
+
+}

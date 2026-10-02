@@ -12,7 +12,7 @@ WORKFORCE STRATEGY, PEOPLE ANALYTICS, ORGANIZATIONAL RESEARCH & INTELLIGENCE
 
 ::::: featured-grid
 ::: glass-panel
-## Clean Energy Labour Forecasting Dashboard
+## [Clean Energy Labour Forecasting Dashboard](projects/clean-energy-dashboard.qmd)
 
 An interactive workforce planning and scenario modelling tool examining how clean-energy development affects employment and occupational demand.
 
@@ -22,7 +22,7 @@ An interactive workforce planning and scenario modelling tool examining how clea
 :::
 
 ::: glass-panel
-## OSPE Working from Home Study (2025)
+## [OSPE Working from Home Study (2025)](research/ospe-wfh-2025.qmd)
 
 A mixed-methods research project incorporating formal research, a survey, interviews, and focus groups to understand the impacts of working from home on engineers across Ontario.
 

@@ -16,7 +16,7 @@ toc: true
 toc-title: "On This Page"
 ---
 
-## Project Overview
+# Project Overview
 
 **Project type:** Client-facing workforce analytics and decision-support tool.
 
@@ -34,7 +34,7 @@ I was responsible for developing the Power BI dashboard. This included the back 
 
 The finished product combined workforce projections, occupational analysis, and user-defined development scenarios within a single decision-support environment.
 
-## The Dashboard
+# The Dashboard (Overview)
 
 ```{=html}
 <div id="dashboardCarousel"
@@ -193,7 +193,7 @@ Users can examine employment projections across energy technologies, development
 
 The interface brings together multiple analytical perspectives without requiring users to navigate the underlying workforce model directly.
 
-## My Contributions
+# My Contributions
 
 I was responsible for developing the dashboard as an analytical product, including the following components:
 
@@ -221,9 +221,91 @@ Produced a comprehensive user guide and incorporated multiple rounds of client f
 
 The broader project's workforce-modelling methodology and underlying assumptions were developed collaboratively. My primary responsibilities centred on implementing the analytical model within Power BI and developing the interactive product.
 
-## How It Works
+# How It Works (In-Depth)
+## User Experience
+The dashboard allows users to explore the implications of clean energy development across two primary analytical dimensions: projected energy generation capacity, and projected employment. Users can examine these dimensions across 10 energy types, 3 development phases, 2 occupational profiles, and 15 years. The dashboard also allows users to configure hypothetical development scenarios and examine their implications for projected capacity and employment demand. Finally, the dashboard incorporates a Power Apps interface that allows users to add new projects and modify existing ones without leaving the Power BI environment.
 
-The dashboard combines three principal components:
+
+::: {.story-step}
+
+::: {.story-media .story-media-pair}
+
+::: {.story-image-block}
+
+![Capacity chart view](images/capacity_chart(clean).png){.story-image}
+
+
+:::
+
+::: {.story-image-block}
+
+![Capacity table view](images/capacity_tbl(clean).png){.story-image}
+
+
+:::
+
+:::
+
+
+::: {.story-copy}
+### Capacity
+
+The capacity view provides an overview of anticipated clean-energy development over time, taking into account the gradual deployment of projects, their expected useful lives, and their cumulative contributions to overall generation capacity.
+
+Users can examine expected capacity by technology, project status, and year, allowing them to understand both the scale and timing of the project pipeline.
+
+Users can also move between the chart and table sections of the Capacity view. This interface is designed to let users move seamlessly between a high-level, aggregated view of expected development and a more granular view focused on individual technologies, project statuses, and time periods of interest.
+
+:::
+
+:::
+
+::: {.story-step}
+
+::: {.story-media .story-media-pair}
+
+::: {.story-image-block}
+
+![Employment chart view](images/employment_chart(clean).png){.story-image}
+
+:::
+
+::: {.story-image-block}
+
+![Employment chart view (with tooltip)](images/employment_chart_tooltip(clean).png){.story-image}
+
+::: {.story-image-block}
+
+![Employment table view](images/employment_tbl(clean).png){.story-image}
+
+
+
+::: {.story-copy}
+### Employment
+
+The Employment view provides an overview of projected workforce demand associated with the development of clean energy projects. Projections are based on pre-defined "key metrics" associated with each energy type. A more in-depth description of the calculation methodology is provided in the Scenario Modelling section below.
+
+As with the Capacity view, users can examine projected employment demand across multiple dimensions, including energy type, development phase, project status, and point in time.
+
+Additionally, the Employment view includes a tooltip that provides additional information about each year, on a per-technology and per-developmennt phase basis. 
+
+Users can also move between the chart and table sections of the Employment view. In the Table view of the Employment section, users can examine projected employment demand broken down by two different occupational groupings. The first grouping, "Aggregated NOC Classification" refers to occupations grouped by their National Occupational Classification (NOC) code. The second grouping "Detailed Job Level" breaks occupations down by job title. Job titles were sourced from interviews with major clean energy project developers, and were mapped onto the NOC classification system to allow for a consistent analytical framework. The Detailed Job Level view trades the consistency of the NOC classification system for the specificity of job titles, multiple of which can fall under the same broader NOC classification.
+
+:::
+
+:::
+
+### Scenario Sandbox
+
+The Scenario Sandbox is a secondary interface that allows users to configure hypothetical clean-energy development scenarios and examine their implications for projected capacity and employment demand.
+
+It allows users to specify project characteristics and development assumptions for up to three hypothetical scenarios, which are then incorporated into the dashboard's capacity and employment calculations.
+
+The Scenario Sandbox was designed to solve two specific problems:
+
+First, the dashboard's underlying project inventory may be used to contain sensitive information which should not be shared with all users. In this case, users without full access would not be able to examine the implications of additional or alternative development activity without working through an intermediary with full access. This has the potential to create bottlenecks in the decision-making process, and limit the overall utility of the dashboard to the organization. Additionally, this inconvnience implicitly incentivises poor security practices, such as sharing sensitive information with users who do not have full access to the dashboard.
+
+Second, there are practicality concerns relating to having the only means of exploring alternative development scenarios be through the addition of new projects to the underlying project inventory. This approach would require users to have a detailed understanding of the underlying workforce model. It would also potentially put strain on the 
 
 1.  **Project inventory:** Information about clean-energy projects, including their technologies, development schedules, capacity, and development assumptions.
 
@@ -231,7 +313,7 @@ The dashboard combines three principal components:
 
 3.  **Scenario modelling:** User-defined development assumptions that allow users to examine potential changes in projected employment demand.
 
-These components feed into the dashboard's employment calculations and interactive visualizations.
+These components feed into the dashboard's capacity and employment calculations and interactive visualizations.
 
 ## Scenario Modelling
 
@@ -243,7 +325,7 @@ Scenario results can be explored through the same employment and occupational an
 
 This functionality extends the dashboard beyond static reporting by allowing users to examine the workforce implications of different development assumptions.
 
-## Technical Approach
+# Technical Approach
 
 ![Diagram showing the process of calculating the the employment outputs of the dashboard.](..\projects\images\diagram%20-%20calculation.png)
 
@@ -251,25 +333,25 @@ The dashboard required translating an existing workforce model into an interacti
 
 Three aspects of the implementation were particularly important.
 
-### 1. Employment calculations
+## 1. Employment calculations
 
 Developed DAX measures to calculate employment demand across different energy technologies and project development phases.
 
 The measures incorporate the relevant workforce assumptions while supporting filtering and aggregation across the dashboard's analytical dimensions.
 
-### 2. Occupational analysis
+## 2. Occupational analysis
 
 Implemented occupational distributions that allow projected employment demand to be examined at different levels of occupational detail.
 
 This provides users with both an overall view of workforce requirements and more detailed information about the types of workers associated with projected development activity.
 
-### 3. Integration of scenario results
+## 3. Integration of scenario results
 
 Developed scenario calculations that incorporate user-defined development assumptions into the dashboard's employment analysis.
 
 The resulting employment estimates can be examined alongside the underlying project inventory, allowing users to compare baseline and hypothetical workforce demand within a consistent analytical framework.
 
-## Delivery and Outcomes
+# Delivery and Outcomes
 
 The dashboard was developed over approximately three months, during which I was given sole responsibility for its technical implementation, interface development, testing, and iterative refinement.
 
@@ -279,4 +361,4 @@ Client reception of the completed dashboard was very positive, and the project s
 
 The finished product provides a consolidated environment for examining projected clean-energy capacity and workforce demand and enables the exploration of alternative development scenarios and how they could affect future occupational requirements.
 
-## [← Back to Analytics Projects](../analytics_projects.qmd)
+# [← Back to Analytics Projects](../analytics_projects.qmd)
