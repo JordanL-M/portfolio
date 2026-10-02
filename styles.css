@@ -482,3 +482,391 @@ main.content figcaption {
   }
 
 }
+
+/* --------------------------------
+   PROJECT FEATURE WALKTHROUGH
+-------------------------------- */
+
+.walkthrough-section {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1.45fr)
+    minmax(320px, 0.75fr);
+
+  gap: 3.5rem;
+
+  align-items: center;
+
+  width: min(1500px, calc(100vw - 6rem));
+
+  position: relative;
+
+  left: 50%;
+  transform: translateX(-50%);
+
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+
+
+/* --------------------------------
+   WALKTHROUGH MEDIA
+-------------------------------- */
+
+.walkthrough-media {
+  min-width: 0;
+}
+
+.walkthrough-media img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  object-fit: contain;
+
+  border-radius: 12px;
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-md);
+}
+
+
+/* --------------------------------
+   SECTION CAROUSEL
+-------------------------------- */
+
+.section-carousel {
+  width: 100%;
+
+  overflow: hidden;
+
+  border-radius: 12px;
+
+  border: 1px solid var(--border);
+
+  background: var(--surface-solid);
+
+  box-shadow: var(--shadow-md);
+}
+
+.section-carousel .carousel-item img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  aspect-ratio: 16 / 9;
+
+  object-fit: contain;
+
+  background: var(--surface-solid);
+
+  border: 0;
+
+  border-radius: 0;
+
+  box-shadow: none;
+}
+
+
+/* Carousel navigation buttons */
+
+.section-carousel .carousel-control-prev,
+.section-carousel .carousel-control-next {
+  width: 3rem;
+  height: 3rem;
+
+  top: 50%;
+  transform: translateY(-50%);
+
+  background: rgba(24, 35, 47, 0.80);
+
+  border-radius: 50%;
+
+  opacity: 1;
+}
+
+.section-carousel .carousel-control-prev {
+  left: 0.75rem;
+}
+
+.section-carousel .carousel-control-next {
+  right: 0.75rem;
+}
+
+.section-carousel .carousel-control-prev:hover,
+.section-carousel .carousel-control-next:hover {
+  background: var(--accent-dark);
+
+  opacity: 1;
+}
+
+
+/* --------------------------------
+   WALKTHROUGH TEXT
+-------------------------------- */
+
+.walkthrough-copy {
+  align-self: center;
+}
+
+.walkthrough-copy h3 {
+  margin-top: 0;
+
+  margin-bottom: 1.25rem;
+
+  font-size: 1.7rem;
+}
+
+.walkthrough-copy p {
+  margin-bottom: 1.4rem;
+
+  line-height: 1.75;
+}
+
+
+/* --------------------------------
+   MOBILE / TABLET
+-------------------------------- */
+
+@media (max-width: 900px) {
+
+  .walkthrough-section {
+    grid-template-columns: 1fr;
+
+    width: 100%;
+
+    left: auto;
+    transform: none;
+
+    gap: 1.75rem;
+
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .walkthrough-copy {
+    align-self: auto;
+  }
+
+  .section-carousel .carousel-control-prev,
+  .section-carousel .carousel-control-next {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+}
+
+/* --------------------------------
+   TECHNICAL ARCHITECTURE
+-------------------------------- */
+
+.technical-flow {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1.15fr)
+    minmax(360px, 0.85fr);
+
+  gap: 4rem;
+
+  align-items: stretch;
+
+  /* Break out of Quarto's normal article width */
+  width: min(1450px, calc(100vw - 6rem));
+
+  position: relative;
+
+  left: 50%;
+  transform: translateX(-50%);
+
+  margin-top: 3.5rem;
+  margin-bottom: 5rem;
+}
+
+
+/* --------------------------------
+   TECHNICAL DIAGRAM
+-------------------------------- */
+
+.technical-diagram {
+  display: flex;
+
+  align-items: stretch;
+
+  min-width: 0;
+}
+
+.technical-diagram p {
+  width: 100%;
+
+  margin: 0;
+}
+
+.technical-diagram-image {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  max-height: none;
+
+  object-fit: contain;
+  object-position: center top;
+
+  border-radius: 12px;
+
+  border: 1px solid var(--border);
+
+  background: var(--surface-solid);
+
+  box-shadow: var(--shadow-md);
+}
+
+
+/* --------------------------------
+   TECHNICAL EXPLANATORY NOTES
+-------------------------------- */
+
+.technical-notes {
+  display: grid;
+
+  /* Four vertical regions corresponding approximately
+     to the four major stages of the diagram */
+  grid-template-rows:
+    0.85fr
+    1.45fr
+    1fr
+    0.8fr;
+
+  gap: 1.5rem;
+
+  height: 100%;
+}
+
+.technical-note {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  padding: 1.4rem 1.6rem;
+
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+
+  box-shadow: var(--shadow-sm);
+}
+
+.technical-note h3 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+
+  font-size: 1.2rem;
+}
+
+.technical-note p {
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+
+  line-height: 1.65;
+}
+
+.technical-note p:last-child {
+  margin-bottom: 0;
+}
+
+.technical-note strong {
+  color: var(--text);
+}
+
+
+/* --------------------------------
+   LARGE DESKTOPS
+-------------------------------- */
+
+@media (min-width: 1500px) {
+
+  .technical-flow {
+    grid-template-columns:
+      minmax(0, 1.25fr)
+      minmax(380px, 0.75fr);
+
+    gap: 4.5rem;
+  }
+
+}
+
+
+/* --------------------------------
+   TABLET / SMALLER DESKTOP
+-------------------------------- */
+
+@media (max-width: 1100px) {
+
+  .technical-flow {
+    grid-template-columns:
+      minmax(0, 1fr)
+      minmax(320px, 0.9fr);
+
+    width: min(1100px, calc(100vw - 3rem));
+
+    gap: 2.5rem;
+  }
+
+}
+
+
+/* --------------------------------
+   MOBILE
+-------------------------------- */
+
+@media (max-width: 800px) {
+
+  .technical-flow {
+    grid-template-columns: 1fr;
+
+    width: 100%;
+
+    left: auto;
+    transform: none;
+
+    gap: 2rem;
+
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+  }
+
+
+  .technical-diagram-image {
+    width: 100%;
+    height: auto;
+
+    object-fit: contain;
+  }
+
+
+  .technical-notes {
+    display: grid;
+
+    grid-template-rows: none;
+
+    gap: 1rem;
+
+    height: auto;
+  }
+
+
+  .technical-note {
+    justify-content: flex-start;
+
+    padding: 1.25rem;
+  }
+
+}
