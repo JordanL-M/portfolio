@@ -443,8 +443,18 @@ Users can then examine projected development and workforce demand across dimensi
 
 :::
 
+::: {.walkthrough-section}
 
-## Backend & Writeback Architecture
+::: {.walkthrough-media}
+
+![Diagram showing the backend design of the dashboard and writeback function.](images/diagram_backend.png)
+
+:::
+
+
+::: {.walkthrough-copy}
+
+### Backend & Writeback Architecture
 
 The dashboard operates on an unconventional backend design shaped by the client's technical and accessibility requirements.
 
@@ -458,8 +468,9 @@ The Power Apps interface allows users to add, edit, and delete projects without 
 
 When the semantic model is refreshed, the updated Project Inventory is read from SharePoint and incorporated into the dashboard's calculations.
 
-![Diagram showing the backend design of the dashboard and writeback function.](images/diagram_backend.png)
+:::
 
+:::
 
 ## Delivery and Outcomes
 
