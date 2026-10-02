@@ -717,13 +717,14 @@ main.content figcaption {
   object-fit: contain;
   object-position: center top;
 
-  border-radius: 12px;
+  /* Preserve the PNG's transparent background */
+  background: transparent;
 
-  border: 1px solid var(--border);
+  /* Do not draw a card around the transparent diagram */
+  border: none;
+  border-radius: 0;
 
-  background: var(--surface-solid);
-
-  box-shadow: var(--shadow-md);
+  box-shadow: none;
 }
 
 
@@ -735,7 +736,7 @@ main.content figcaption {
   display: grid;
 
   /* Four vertical regions corresponding approximately
-     to the four major stages of the diagram */
+     to the major stages of the diagram */
   grid-template-rows:
     0.85fr
     1.45fr
@@ -849,6 +850,13 @@ main.content figcaption {
     height: auto;
 
     object-fit: contain;
+
+    background: transparent;
+
+    border: none;
+    border-radius: 0;
+
+    box-shadow: none;
   }
 
 
